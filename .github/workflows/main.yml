@@ -46,8 +46,4 @@ jobs:
           version=$(cat ./charts/helm-example/values.yaml | grep version: | awk '{print $2}')
           sed -i "s/$version/${GITHUB_REF##*/}-$git_hash/" ./charts/helm-example/values.yaml
           
-    - name: Commit and push changes
-      uses: devops-infra/action-commit-push@v0.3
-      with:
-        github_token: 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
-        commit_message: Version updated
+   
