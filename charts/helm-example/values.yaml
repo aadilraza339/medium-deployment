@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: Always
   repository: 324980699593.dkr.ecr.us-east-2.amazonaws.com/kubernetes-github-actions
-  version: main-1342909
+  version: latest
 
 imagePullSecrets:
   - name: ecr-registry
