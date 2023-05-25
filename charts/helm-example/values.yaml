@@ -8,7 +8,9 @@ image:
   pullPolicy: IfNotPresent
   repository: 324980699593.dkr.ecr.us-east-2.amazonaws.com/kubernetes-github-actions
   version: main-80dbb08
-
+  auth:
+    username: aadilraza338
+    password: 9873752914raza@A
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
