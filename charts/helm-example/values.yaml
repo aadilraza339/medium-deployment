@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  repository: public.ecr.aws/u7y6b0m6/demo-repo
+  repository: 324980699593.dkr.ecr.us-east-2.amazonaws.com/kubernetes-github-actions
   version: main-80dbb08
 
 imagePullSecrets: []
