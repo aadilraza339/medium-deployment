@@ -67,3 +67,7 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+metadata:
+  annotations:
+    kubernetes.io/secret: ecr-registry
