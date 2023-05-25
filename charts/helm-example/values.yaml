@@ -10,7 +10,8 @@ image:
   version: main-1342909
 
 imagePullSecrets:
-  -name: ecr-registry
+  - name: ecr-registry
+
 nameOverride: ""
 fullnameOverride: ""
 
